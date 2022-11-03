@@ -1,0 +1,51 @@
+.our-services-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-block: 70px;
+}
+.our-services-header {
+  font-family: 'Staatliches', cursive;
+  font-size: 70px;
+  color: black;
+}
+.our-services-card-container {
+  margin-block: 40px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  flex-direction: row;
+}
+.our-services-card {
+  width: 280px;
+  height: 350px;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-inline: 20px;
+}
+.our-services-card-container-icon {
+  width: 70px;
+  height: 70px;
+}
+.our-services-card-container-header {
+  margin-top: 20px;
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  color: black;
+}
+.our-services-card-container-sub-header {
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  color: black;
+}
+.our-services-card-container-description {
+  margin-top: 20px;
+  font-family: 'Staatliches', cursive;
+  font-size: 17px;
+  color: black;
+}

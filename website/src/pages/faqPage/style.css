@@ -1,0 +1,30 @@
+.faq-page-container {
+}
+.faq-page-jumbotron {
+  width: 100vw;
+  height: 400px;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.faq-page-jumbotron-header {
+  font-size: 70px;
+  font-family: 'Staatliches', cursive;
+}
+.faq-page-jumbotron-breadcrumbs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.faq-page-jumbotron-breadcrumbs-inactive {
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  color: rgb(255, 255, 255);
+}
+.faq-page-jumbotron-breadcrumbs-active {
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+}

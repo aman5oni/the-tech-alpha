@@ -1,0 +1,93 @@
+.swiper-pagination-bullet-active {
+  border-radius: 5px;
+  background-color: var(--primary) !important;
+  width: 20px !important;
+}
+
+.swiper-pagination-bullet {
+  border-radius: 5px !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.customer-testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.customer-testimonial-header {
+  font-family: 'Staatliches', cursive;
+  font-size: 70px;
+  color: black;
+}
+.customer-testimonial-swiper-container {
+  margin-block: 60px;
+}
+.customer-testimonial-active-slides-container {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.customer-testimonial-inactive-slides-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.customer-testimonial-active-main-slides-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.customer-testimonial-inactive-main-slides-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.customer-testimonial-active-main-slides-name {
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.customer-testimonial-inactive-main-slides-name {
+  font-family: 'Staatliches', cursive;
+  font-size: 27px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.customer-testimonial-active-main-slides-profession {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  color: black;
+}
+.customer-testimonial-inactive-main-slides-profession {
+  font-family: 'Staatliches', cursive;
+  font-size: 18px;
+  color: black;
+}
+.customer-testimonial-active-main-slides-message {
+  font-family: 'Staatliches', cursive;
+  font-size: 17px;
+  color: black;
+  text-align: center;
+  width: 260px;
+}
+.customer-testimonial-inactive-main-slides-message {
+  font-family: 'Staatliches', cursive;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  width: 230px;
+}

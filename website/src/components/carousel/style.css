@@ -1,0 +1,62 @@
+.swiper {
+    width: 80vw;
+    height: auto;
+    background-color: transparent;
+  }
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.carousel-back-image {
+  background-color: var(--primary);
+  width: 100vw;
+  height: 550px;
+}
+.carousel-main-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.carousel-prev-button-icon {
+}
+.carousel-main-container-swiper {
+
+}
+
+.carousel-icon {
+    filter:invert(1)
+}
+
+.carousel-next-button-icon {
+}
+.carousel-active-slides-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block:60px ;
+}
+
+.carousel-active-main-slides-name {
+  font-family: 'Staatliches', cursive;
+  font-size: 50px;
+  color: white;
+}
+.carousel-active-main-slides-quote {
+  margin-block: 20px;
+  font-family: 'Staatliches', cursive;
+  font-size: 24px;
+  text-align: center;
+  width: 350px;
+  color: white;
+}

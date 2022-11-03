@@ -1,0 +1,30 @@
+.portfolio-page-container {
+}
+.portfolio-page-jumbotron {
+  width: 100vw;
+  height: 400px;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.portfolio-page-jumbotron-header {
+  font-size: 70px;
+  font-family: 'Staatliches', cursive;
+}
+.portfolio-page-jumbotron-breadcrumbs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.portfolio-page-jumbotron-breadcrumbs-inactive {
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  color: rgb(255, 255, 255);
+}
+.portfolio-page-jumbotron-breadcrumbs-active {
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+}
